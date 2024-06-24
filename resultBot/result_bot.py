@@ -1,7 +1,7 @@
 import requests
 from pyrogram import Client, filters
 
-# Provided API credentials
+# API
 api_id = 28793443
 api_hash = 'f296fa5e298b76a436d8309dc3480bb9'
 bot_token = '7471349714:AAE6_VVTOUhYM5-pLP38eGmuutt84b09PeU'
@@ -35,7 +35,7 @@ def fetch_result(client, message):
         results = get_result(semester_id, student_id)
         
         if results and isinstance(results, list) and len(results) > 0:
-            # Assuming the semester information is the same across all courses in the response
+            # Assuming the semester information is same across all courses
             semester_name = results[0].get('semesterName', 'N/A')
             semester_year = results[0].get('semesterYear', 'N/A')
             sgpa = results[0].get('cgpa', 'N/A')
@@ -45,7 +45,7 @@ def fetch_result(client, message):
             response_text += f"SGPA: {sgpa}\n"
             response_text += f"Total Credits: {total_credits}\n\n"
             
-            #table header
+            #table
             response_text += "Course ID | Course Title | Credits | Grade | Point\n"
             response_text += "--------------------------------------------------\n"
             
