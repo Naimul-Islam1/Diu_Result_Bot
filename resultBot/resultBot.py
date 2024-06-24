@@ -2,10 +2,7 @@ import requests
 import json
 from pyrogram import Client, filters
 
-# Replace these values with your own
-api_id = 28793443
-api_hash = 'f296fa5e298b76a436d8309dc3480bb9'
-bot_token = '7239539697:AAH2qLOQa-UzJzM46P4xFB5lV8cLpTu1IJg'
+
 
 app = Client("result_bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
