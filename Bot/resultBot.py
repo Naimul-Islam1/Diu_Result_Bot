@@ -8,10 +8,9 @@ from Bot.result import get_result
 
 
 class Bot:
-    
-    app = Client("result_bot",
-                 api_id=setting.APIKEY,
-                 api_hash=setting.APPID, 
+      app = Client("result_bot",
+                 api_id=setting.APPID,
+                 api_hash=setting.APIKEY, 
                  bot_token=setting.BOT_TOKEN)
 
     @app.on_message(filters.command("start"))
