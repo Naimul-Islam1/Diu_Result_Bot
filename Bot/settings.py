@@ -1,7 +1,7 @@
-from dotenv import load_dotenv,getenv
+from dotenv import load_dotenv
 import os
 
-load_env()
+load_dotenv()
 class Settings:
   APIKEY=os.getenv("APIKEY")
   APPID=os.getenv("APPID")
@@ -10,4 +10,5 @@ class Settings:
   
 
 setting=Settings()
+
 
