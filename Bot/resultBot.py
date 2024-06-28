@@ -8,7 +8,7 @@ from Bot.result import get_result
 
 
 class Bot:
-      app = Client("result_bot",
+    app = Client("result_bot",
                  api_id=setting.APPID,
                  api_hash=setting.APIKEY, 
                  bot_token=setting.BOT_TOKEN)
