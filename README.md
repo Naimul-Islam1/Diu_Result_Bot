@@ -61,10 +61,10 @@ sudo apt install python3 python3-pip
  ## 2. Setting up config file
  * change sample.txt to .env
  <br>
- * <code>BOT_TOKEN</code>:The Telegram Bot Token that you got from<a href="https://t.me/BotFather"> @BotFather</a>.<code>str</code>
+ - <code>BOT_TOKEN</code>:The Telegram Bot Token that you got from<a href="https://t.me/BotFather"> @BotFather</a>.<code>str</code>
 <br>
- * <code>APIKEY</code> Telegram API HASH :This is to authenticate your Telegram account for downloading Telegram files. You can get this from https://my.telegram.org <code> str</code>
+ - <code>APIKEY</code> Telegram API HASH :This is to authenticate your Telegram account for downloading Telegram files. You can get this from https://my.telegram.org <code> str</code>
  <br>
-* <code>APPID</code>:Telegram API ID:This is to authenticate your Telegram account for downloading Telegram files. You can get this from https://my.telegram.org.<code>int</code>
+- <code>APPID</code>:Telegram API ID:This is to authenticate your Telegram account for downloading Telegram files. You can get this from https://my.telegram.org.<code>int</code>
 
 
