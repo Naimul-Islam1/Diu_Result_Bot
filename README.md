@@ -38,7 +38,9 @@ The Daffodil International University (DIU) chatbot is an innovative tool design
 
 
 # Host Your Own Bot 
- * **Install Requirements**
+
+## 1.Install Requirements
+ * **Clone this repo:**
  ```
   git clone https://github.com/Naimul-Islam1/Diu_Result_Bot && cd Diu_Result_Bot
 ```
@@ -47,7 +49,22 @@ The Daffodil International University (DIU) chatbot is an innovative tool design
 ```
 sudo apt install python3 python3-pip
 ```
-* **For Arch and it's Child
+* **For Arch and it's Child**
 ```
  sudo pacman -S docker python
  ```
+ * **Install dependencies for running setup scripts:**
+ ```pyhton3
+ pip3 install -r requirements-cli.txt
+ ```
+ ---
+ ## 2. Setting up config file
+ * change sample.txt to .env
+ <br>
+ * <code>BOT_TOKEN</code>:The Telegram Bot Token that you got from<a href="https://t.me/BotFather"> @BotFather</a>.<code>str</code>
+<br>
+ * <code>APIKEY</code> Telegram API HASH :This is to authenticate your Telegram account for downloading Telegram files. You can get this from https://my.telegram.org <code> str</code>
+ <br>
+* <code>APPID</code>:Telegram API ID:This is to authenticate your Telegram account for downloading Telegram files. You can get this from https://my.telegram.org.<code>int</code>
+
+

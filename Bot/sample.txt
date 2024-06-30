@@ -1,0 +1,4 @@
+
+APIKEY=
+APPID=
+BOT_TOKEN=
