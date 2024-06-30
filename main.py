@@ -2,7 +2,7 @@ from logging import DEBUG, getLogger, StreamHandler, Formatter, FileHandler,WARN
 from colorama import Fore, Back, Style
 from Bot.resultBot import Bot
 
-basicConfig(format=Back.GREEN+'%(asctime)s - %(name)s - %(levelname)s - %(message)s', 
+basicConfig(format=Fore.GREEN+'%(asctime)s - %(name)s - %(levelname)s - %(message)s', 
               
               level=INFO)
   
@@ -16,6 +16,7 @@ app=Bot.app
 
 
 if __name__=="__main__":
+  print(Fore.GREEN+"DiU Result Bot Developed by Swadhin & Naimul")
   logger.info("Bot is running")
   app.run()
   

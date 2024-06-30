@@ -1,0 +1,6 @@
+python-dotenv
+pyrogram
+os
+requests
+logging
+datetime
