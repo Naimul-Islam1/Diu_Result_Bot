@@ -1,21 +1,13 @@
-# Security Policy
 
-## Supported Versions
+**Security Policy**
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+The Diu_Result_Bot development team takes user privacy and security very seriously. This security policy outlines the measures in place to protect user data:
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+* **Data Minimization:** The chatbot collects only the information necessary to function, such as the user's query.
+* **Data Storage:** Any collected data is stored securely on authorized servers and is not accessible to unauthorized personnel.
+* **Data Encryption:** Data transmission between the user and the chatbot is encrypted to prevent unauthorized interception.
+* **Regular Updates:** The chatbot's software is regularly updated to address potential security vulnerabilities.
 
-## Reporting a Vulnerability
+**Please note that this document details the intended security practices. Refer to the official documentation for the most up-to-date security information.**
 
-Use this section to tell people how to report a vulnerability.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
