@@ -3,5 +3,5 @@ pyrogram
 requests
 logging
 datetime
-sys
+
 colorama
