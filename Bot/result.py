@@ -8,4 +8,7 @@ def get_result(semester_id, student_id):
         return response.json()
     else:
         return None
+    
+
   
+
